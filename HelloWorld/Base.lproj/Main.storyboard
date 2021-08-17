@@ -23,13 +23,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZx-ER-2mm">
-                                <rect key="frame" x="158.5" y="598" width="97" height="53"/>
+                                <rect key="frame" x="54.5" y="675" width="305" height="53"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="HWz-rQ-dc7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="OHa-Gz-Bmv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Show Text">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -37,10 +37,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="lZx-ER-2mm" firstAttribute="centerX" secondItem="xVG-1t-D9v" secondAttribute="centerX" id="IE6-93-2wV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lZx-ER-2mm" secondAttribute="bottom" constant="211" id="Tje-pY-pTR"/>
-                            <constraint firstItem="lZx-ER-2mm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKo-xJ-lni"/>
-                            <constraint firstItem="xVG-1t-D9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="m1b-7r-rvL"/>
+                            <constraint firstItem="lZx-ER-2mm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T8e-xG-GOR"/>
+                            <constraint firstItem="xVG-1t-D9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="dAG-wZ-dCb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lZx-ER-2mm" secondAttribute="bottom" constant="134" id="wmo-tM-ZJe"/>
+                            <constraint firstItem="xVG-1t-D9v" firstAttribute="centerX" secondItem="lZx-ER-2mm" secondAttribute="centerX" id="xbw-W5-RUg"/>
                         </constraints>
                     </view>
                 </viewController>
